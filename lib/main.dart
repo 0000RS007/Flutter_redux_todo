@@ -7,7 +7,9 @@ import 'package:redux_items/model/model.dart';
 import 'package:redux_items/redux/actions.dart';
 import 'package:redux_items/redux/reducers.dart';
 
-void main() => runApp(MyApp());
+void main(){
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
